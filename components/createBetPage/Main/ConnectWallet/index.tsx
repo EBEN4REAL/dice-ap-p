@@ -128,7 +128,7 @@ const ConnectWallet = ({ nextStep }: PropsI) => {
     }
 
     // @ts-ignore
-    if (typeof window.ethereum == "undefined" || typeof window.web3 == "undefined") {
+    if (typeof window.ethereum == true || typeof window.web3 == true) {
       toast.error("Please install Metamask wallet");
     }
   };

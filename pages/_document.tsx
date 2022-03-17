@@ -38,7 +38,6 @@ export default class MyDocument extends Document {
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link rel="stylesheet" href="./style.css" />
                     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Russo+One&display=swap" rel="stylesheet" />
-                    {/* <meta property="og:URL" content="https://images.unsplash.com/photo-1640622660914-4b56c79bb492?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" /> */}
 
                     <meta property="og:type" content="Double Dice betting" />
                         
@@ -52,9 +51,6 @@ export default class MyDocument extends Document {
 
                 </Head>
                 <body>
-                    <div className="thumbnail">
-                        <img src="/thumbnails/landing.png" alt=""/>
-                    </div>
                     <Main />
                     <NextScript />
                 </body>
