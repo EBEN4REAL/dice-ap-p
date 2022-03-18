@@ -38,8 +38,7 @@ export default class MyDocument extends Document {
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link rel="stylesheet" href="./style.css" />
                     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Russo+One&display=swap" rel="stylesheet" />
-                    <meta property="og:URL" content="www.facebook.com" />
-                    <meta property="og:type" content="Double Dice betting" />
+                    <meta property="og:URL" content="www.facebook.com" /><meta property="og:type" content="Double Dice betting" />
                     <meta property="og:title" content="Double Dice betting" />
                     {/* <meta property="og:title" name="twitter:title" content="Double Dice betting" /> */}
                     {/* <meta property="og:description" name="twitter:description" content="Welcome to double dice betting website" /> */}
@@ -53,9 +52,6 @@ export default class MyDocument extends Document {
                     <meta property="og:image:alt" content="double dice image" />
                 </Head>
                 <body>
-                    <div className="thumbnail">
-                        <img src="/thumbnails/landing.png" alt=""/>
-                    </div>
                     <Main />
                     <NextScript />
                 </body>

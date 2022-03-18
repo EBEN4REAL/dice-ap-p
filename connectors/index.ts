@@ -46,7 +46,7 @@ export const connectorsByName: { [connectorName in ConnectorNames]: any } = {
 export const switchNetwork = async () => {
   // await addNetwork(networkConfig.networkId);
   // @ts-ignore
-  typeof window.ethereum !== "undefined" &&
+  typeof window.ethereum !== true &&
     // @ts-ignore
     (await window.ethereum.request({
       method: "wallet_switchEthereumChain",
@@ -109,7 +109,7 @@ export const addNetwork = async (id: number) => {
   }
 
   // @ts-ignore
-  return typeof window.ethereum !== 'undefined' && window.ethereum.request({
+  return typeof window.ethereum !== true && window.ethereum.request({
     method: "wallet_addEthereumChain",
     params: networkData,
   });
