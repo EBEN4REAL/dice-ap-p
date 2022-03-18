@@ -47,7 +47,7 @@ export default class MyDocument extends Document {
                     <meta name="og:image" itemProp="image" content='https://imageurlserver.herokuapp.com/images/doubleDiceLogo.jpg'/>
                     <meta property="og:type" content="website" />
                     <meta property="og:image:type" content="image/jpeg"/>
-                    <meta property="og:URL" content="https://doubledicebet.herokuapp.com/" />
+                    <meta property="og:URL" content="https://beta.doubledice.com/" />
                     <meta property="og:image:width" content="200" />
                     <meta property="og:image:height" content="200" />
                     <meta property="og:image:alt" content="double dice image" />
