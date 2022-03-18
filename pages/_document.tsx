@@ -44,11 +44,11 @@ export default class MyDocument extends Document {
                     {/* <meta property="og:description" name="twitter:description" content="Welcome to double dice betting website" /> */}
                     <meta property="og:description" content="Welcome to double dice betting website" />
                     {/* <meta name="twitter:card" content="summary" /> */}
-                    <meta name="og:image" content='https://images.unsplash.com/photo-1640622660914-4b56c79bb492?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'/>
+                    <meta name="og:image" itemProp="image" content='https://images.unsplash.com/photo-1640622660914-4b56c79bb492?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'/>
                     {/* <meta property="og:image" name="twitter:image" content="https://images.unsplash.com/photo-1640622660914-4b56c79bb492?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" /> */}
                     <meta property="og:image:type" content="image/jpeg" />
-                    <meta property="og:image:width" content="400" />
-                    <meta property="og:image:height" content="300" />
+                    <meta property="og:image:width" content="256" />
+                    <meta property="og:image:height" content="256" />
                     <meta property="og:image:alt" content="double dice image" />
                 </Head>
                 <body>
