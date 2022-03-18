@@ -38,18 +38,19 @@ export default class MyDocument extends Document {
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link rel="stylesheet" href="./style.css" />
                     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Russo+One&display=swap" rel="stylesheet" />
-                    {/* <meta property="og:URL" content="https://images.unsplash.com/photo-1640622660914-4b56c79bb492?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" /> */}
-
+                    <meta property="og:URL" content="www.facebook.com" />
                     <meta property="og:type" content="Double Dice betting" />
-                        
-                    <meta property="og:title" name="twitter:title" content="Double Dice betting" />
-                        
-                    <meta property="og:description" name="twitter:description" content="Welcome to double dice betting website" />
-
-                    <meta name="twitter:card" content="summary" />
-                    
-                    <meta   property="og:image" name="twitter:image" content="https://images.unsplash.com/photo-1640622660914-4b56c79bb492?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
-
+                    <meta property="og:title" content="Double Dice betting" />
+                    {/* <meta property="og:title" name="twitter:title" content="Double Dice betting" /> */}
+                    {/* <meta property="og:description" name="twitter:description" content="Welcome to double dice betting website" /> */}
+                    <meta property="og:description" content="Welcome to double dice betting website" />
+                    {/* <meta name="twitter:card" content="summary" /> */}
+                    <meta name="og:image" content='https://images.unsplash.com/photo-1640622660914-4b56c79bb492?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'/>
+                    {/* <meta property="og:image" name="twitter:image" content="https://images.unsplash.com/photo-1640622660914-4b56c79bb492?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" /> */}
+                    <meta property="og:image:type" content="image/jpeg" />
+                    <meta property="og:image:width" content="400" />
+                    <meta property="og:image:height" content="300" />
+                    <meta property="og:image:alt" content="double dice image" />
                 </Head>
                 <body>
                     <div className="thumbnail">

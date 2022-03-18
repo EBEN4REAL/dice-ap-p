@@ -1,5 +1,5 @@
 import networkConfig from "config/networkConfig";
-import { BigNumber, Signer } from "ethers";
+import { BigNumber, Signer } from "ethers"
 import { DoubleDice__factory, VirtualFloorCreationParamsStruct } from "lib/contracts";
 
 export const commitToVirtualFloor = async (signer: Signer, amount: BigNumber, virtualFloorId: string, outcomeIndex: number): Promise<string | null> => {
